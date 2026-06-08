@@ -1,11 +1,6 @@
 <html>
     <head>
-        <style>
-        body {
-            background-color: blue;
-        }
-        <title>My Website</title>
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1 test align = "center">
@@ -15,9 +10,23 @@
             <center>
                 Welcome to our special day!
                 </center>
-                <center>
-                <img src = "C:\Users\hp\Documents\HTML\1.jpeg" height="500" width = "500" alt = "Anniversary Image">
-                </center>
         </p>
+        <div class="slider-container">
+<div class="slider">
+<div class="slider-wrapper">
+    <div class="slide">
+    <img src="C:\Users\hp\Documents\HTML\1.jpeg" alt="First Slide">
+    </div>
+    <div class="slide">
+    <img src="C:\Users\hp\Documents\HTML\2.jpeg" alt="Second Slide">
+    </div>
+    <div class="slide">
+    <img src="C:\Users\hp\Documents\HTML\3.jpeg" alt="Third Slide">
+    </div>
+</div>
+<button class="prev-btn" onclick="moveSlide(-1)">&#10094;</button>
+<button class="next-btn" onclick="moveSlide(1)">&#10095;</button>
+
+</div>
     </body>
 </html>
